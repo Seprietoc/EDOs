@@ -36,7 +36,15 @@ int main()
 
 void runge(array<double, N>& arr)
 {	
-	
+	double k1, k2, k3, k4;
+	for (int i = 0; i < N - 1; i++)
+	{
+		k1 = -dt*y[i]
+		k2 = 
+		k3 =
+		k4 =
+		y[i+1] = y[i] (k1+2*k2+2*k3+k4)/6;
+	}
 	return;
 }
 
